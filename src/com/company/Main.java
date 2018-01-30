@@ -18,8 +18,13 @@ public class Main {
         sk1 = in.nextInt();
         sk2 = in.nextInt();
 
-        System.out.println("Suma: " + (sk1 + sk2));
-        System.out.println("Skirtumas: " + (sk1 - sk2));
+        System.out.println("Suma: " + suma(sk1, sk2));
+        System.out.println("Skirtumas: " + skirtumas(sk1, sk2));
     }
-
+    public static int suma(int a, int b){
+        return a + b;
+    }
+    public static int skirtumas(int a, int b){
+        return a - b;
+    }
 }
